@@ -62,10 +62,10 @@ COOKIES_ENABLED = False
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
-# Configure item pipelines
+# Configure item
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'nipic.pipelines.NipicPipeline': 300,
+    'nipic.pipelines.NipicPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
