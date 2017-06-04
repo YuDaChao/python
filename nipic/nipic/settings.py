@@ -65,7 +65,7 @@ COOKIES_ENABLED = False
 # Configure item
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'nipic.pipelines.NipicPipeline': 400,
+    'nipic.pipelines.NipicPipeline': 200,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
